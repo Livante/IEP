@@ -57,8 +57,8 @@ int main(void){
     CircBox *box4;
     box4=&box2;
 
-    cout << "Volumul cutiei 1: " << box3->getVolume();
-    cout << "Volumul cutiei 2: " << box4->getVolume(); 
+    cout << "Volumul cutiei 3: " << box3->getVolume();
+    cout << "Volumul cutiei 4: " << box4->getVolume(); 
 
     delete box3;
     delete box4;
