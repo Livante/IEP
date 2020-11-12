@@ -19,6 +19,13 @@ class Ceas{
             cout<<"ora: "<<ora<<" minutul: "<<minut<<"\n";
         }
 
+        Ceas& operator=(const Ceas& b)
+        {
+            ora=b.ora;
+            minut=b.minut;
+            return *this;
+        }
+
         void catEceasul(){
             Ceas ceasulMeu(13,14);
             Ceas *p;
@@ -44,9 +51,10 @@ class CeasPerf: public Ceas{
         {
             delete ceas;
             ceas=new Ceas(*var.ceas);
+            secunda=var.secunda;
             return *this;
         }
-
+        int get() const{return secunda;}
         CeasPerf(int o, int m, int s): Ceas(o,m)
         {   
             secunda=s;
@@ -56,7 +64,7 @@ class CeasPerf: public Ceas{
 
         void afis()
         {
-            cout <<"ora: "<<ora<<" minutul: "<<minut <<" secunda: "<<secunda<<"\n";
+            cout <<"ora: "<<ora<<" minutul: "<<minut <<" secunda: "<<secunda<<endl;
         }
 };
 
@@ -72,7 +80,8 @@ int main(void){
 
     CeasPerf ceas3(20,20,12);
     ceas3.afis();
-
+    cout<<endl<<"ceas 3, secunda:"<<ceas3.get()<<endl;
+    
     ceas1=ceas2;
     ceas1.afis();
     ceas1=ceas1;
@@ -85,5 +94,6 @@ int main(void){
     delete ceas4;
     ceas2=*ceas4;
     ceas3.afis();
+    
     return 0;
 }
