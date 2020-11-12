@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/livante/IEP_Florea_Alexandru_Daniel_Gergelyfi_Levente/lab5/Box.cpp" "/home/livante/IEP_Florea_Alexandru_Daniel_Gergelyfi_Levente/lab5/build/CMakeFiles/proba1.dir/Box.cpp.o"
+  "/home/alexf/Desktop/IEP/IEP_Florea_Alexandru_Daniel_Gergelyfi_Levente/lab5/Box.cpp" "/home/alexf/Desktop/IEP/IEP_Florea_Alexandru_Daniel_Gergelyfi_Levente/lab5/build/CMakeFiles/proba1.dir/Box.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

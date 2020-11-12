@@ -1,7 +1,7 @@
-/home/livante/IEP_Florea_Alexandru_Daniel_Gergelyfi_Levente/lab5/build/CMakeFiles/edit_cache.dir
-/home/livante/IEP_Florea_Alexandru_Daniel_Gergelyfi_Levente/lab5/build/CMakeFiles/install/strip.dir
-/home/livante/IEP_Florea_Alexandru_Daniel_Gergelyfi_Levente/lab5/build/CMakeFiles/proba1.dir
-/home/livante/IEP_Florea_Alexandru_Daniel_Gergelyfi_Levente/lab5/build/CMakeFiles/install.dir
-/home/livante/IEP_Florea_Alexandru_Daniel_Gergelyfi_Levente/lab5/build/CMakeFiles/rebuild_cache.dir
-/home/livante/IEP_Florea_Alexandru_Daniel_Gergelyfi_Levente/lab5/build/CMakeFiles/list_install_components.dir
-/home/livante/IEP_Florea_Alexandru_Daniel_Gergelyfi_Levente/lab5/build/CMakeFiles/install/local.dir
+/home/alexf/Desktop/IEP/IEP_Florea_Alexandru_Daniel_Gergelyfi_Levente/lab5/build/CMakeFiles/edit_cache.dir
+/home/alexf/Desktop/IEP/IEP_Florea_Alexandru_Daniel_Gergelyfi_Levente/lab5/build/CMakeFiles/install/strip.dir
+/home/alexf/Desktop/IEP/IEP_Florea_Alexandru_Daniel_Gergelyfi_Levente/lab5/build/CMakeFiles/proba1.dir
+/home/alexf/Desktop/IEP/IEP_Florea_Alexandru_Daniel_Gergelyfi_Levente/lab5/build/CMakeFiles/install.dir
+/home/alexf/Desktop/IEP/IEP_Florea_Alexandru_Daniel_Gergelyfi_Levente/lab5/build/CMakeFiles/rebuild_cache.dir
+/home/alexf/Desktop/IEP/IEP_Florea_Alexandru_Daniel_Gergelyfi_Levente/lab5/build/CMakeFiles/list_install_components.dir
+/home/alexf/Desktop/IEP/IEP_Florea_Alexandru_Daniel_Gergelyfi_Levente/lab5/build/CMakeFiles/install/local.dir
