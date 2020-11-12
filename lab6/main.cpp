@@ -18,6 +18,16 @@ class Ceas{
         void afis(){
             cout<<"ora: "<<ora<<" minutul: "<<minut<<"\n";
         }
+
+        void catEceasul(){
+            Ceas ceasulMeu(13,14);
+            Ceas *p;
+            p=&ceasulMeu;
+            p->afis();
+            delete p;  //Resource management
+        }
+
+    
 };
 
 class CeasPerf: public Ceas{
@@ -60,9 +70,20 @@ int main(void){
     CeasPerf ceas2(12,12,12);
     ceas2.afis();
 
+    CeasPerf ceas3(20,20,12);
+    ceas3.afis();
+
     ceas1=ceas2;
     ceas1.afis();
     ceas1=ceas1;
     ceas1.afis();
+
+    ceas1.catEceasul();
+    CeasPerf *ceas4;
+    ceas4=&ceas2;
+    ceas4->afis();
+    delete ceas4;
+    ceas2=*ceas4;
+    ceas3.afis();
     return 0;
 }
